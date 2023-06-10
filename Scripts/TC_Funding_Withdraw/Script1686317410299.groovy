@@ -17,3 +17,42 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('D:\\11419057_Fretty L M Silalahi\\Tokenomy\\2.9.0-UAT.apk', true)
+
+Mobile.tap(findTestObject('Object_Login/android.widget.TextView - SKIP'), 0)
+
+Mobile.tap(findTestObject('Object_Login/android.widget.TextView - SKIP Welcome'), 0)
+
+Mobile.tap(findTestObject('Object_Login/android.widget.TextView - Get started'), 0)
+
+Mobile.setText(findTestObject('Object_Login/android.widget.EditText - E-mail'), 'fretty.s@tokenomy.com', 0)
+
+Mobile.setEncryptedText(findTestObject('Object_Login/android.widget.EditText - Password'), 'M8WMB2P9gOTVnYMOk4llWg==', 0)
+
+Mobile.tap(findTestObject('Object_Login/android.widget.TextView - Log in'), 0)
+
+Mobile.setText(findTestObject('Object_Login/android.widget.EditText OTP'), '121212', 0)
+
+Mobile.tap(findTestObject('Object_Login/android.widget.ImageView Home'), 0)
+
+Mobile.tap(findTestObject('Object Funding/Deposit/android.widget.ImageButton Funding Menu'), 0)
+
+Mobile.tap(findTestObject('Object Funding/Withdraw/android.view.ViewGroup 1st prod'), 0)
+
+Mobile.tap(findTestObject('Object Funding/Withdraw/android.widget.TextView - 25'), 0)
+
+Mobile.tap(findTestObject('Object Funding/Withdraw/android.view.ViewGroup Select address'), 0)
+
+Mobile.tap(findTestObject('Object Funding/Withdraw/android.widget.TextView - Use new address'), 0)
+
+Mobile.setText(findTestObject('Object Funding/Withdraw/android.widget.EditText - Enter address name'), 'fretty.s', 0)
+
+Mobile.setText(findTestObject('Object Funding/Withdraw/android.widget.EditText - Tap to paste withdrawal address'), 'fretty.s', 
+    0)
+
+Mobile.tap(findTestObject('Object Funding/Withdraw/android.widget.TextView - Review'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
+
