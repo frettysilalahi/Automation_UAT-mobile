@@ -35,4 +35,19 @@ Mobile.setText(findTestObject('Object_Login/android.widget.EditText OTP'), '1212
 
 Mobile.tap(findTestObject('Object_Login/android.widget.ImageView Home'), 0)
 
-Mobile.tap(findTestObject('Object Funding/Deposit/android.widget.ImageButton Funding Menu'), 0)
+Mobile.tap(findTestObject('Object_Menu/android.view.ViewGroup Profile Menu'), 0)
+
+Mobile.tap(findTestObject('Object_Transaction History/android.view.ViewGroup Transactions history'), 0)
+
+Mobile.tap(findTestObject('Object_Transaction History/android.widget.ImageView filter'), 0)
+
+Mobile.tap(findTestObject('Object_Transaction History/Buy/android.widget.CheckBox Buy check'), 0)
+
+Mobile.tap(findTestObject('Object_Transaction History/Buy/android.view.ViewGroup buy 1st list'), 0)
+
+Mobile.tap(findTestObject('Object_Transaction History/Buy/android.view.ViewGroup transaction detail'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
+
