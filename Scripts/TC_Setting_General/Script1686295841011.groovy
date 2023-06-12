@@ -19,21 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\11419057_Fretty L M Silalahi\\Tokenomy\\2.9.0-UAT.apk', true)
 
-Mobile.tap(findTestObject('Object_Login/android.widget.TextView - SKIP'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object_Login/android.widget.TextView - SKIP Welcome'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Object_Login/android.widget.TextView - Get started'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.setText(findTestObject('Object_Login/android.widget.EditText - E-mail'), 'fretty.s@tokenomy.com', 0)
+Mobile.setText(findTestObject('null'), 'fretty.s@tokenomy.com', 0)
 
-Mobile.setText(findTestObject('Object_Login/android.widget.EditText - Password'), 'Laguboti1!', 0)
+Mobile.setText(findTestObject('null'), 'Laguboti1!', 0)
 
-Mobile.tap(findTestObject('Object_Login/android.widget.TextView - Log in'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.setText(findTestObject('Object_Login/android.widget.EditText OTP'), '121212', 0)
+Mobile.setText(findTestObject('null'), '121212', 0)
 
-Mobile.tap(findTestObject('Object_Login/android.widget.ImageView Home'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.tap(findTestObject('Object_Menu/android.view.ViewGroup Profile Menu'), 0)
 
