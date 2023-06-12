@@ -19,21 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\11419057_Fretty L M Silalahi\\Tokenomy\\2.9.0-UAT.apk', true)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - SKIP'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - SKIP (1)'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - Get started'), 0)
 
-Mobile.setText(findTestObject('null'), 'fretty.s@tokenomy.com', 0)
+Mobile.setText(findTestObject('Object_Login/android.widget.EditText - E-mail'), 'fretty.s@tokenomy.com', 0)
 
-Mobile.setText(findTestObject('null'), 'Laguboti1!', 0)
+Mobile.setEncryptedText(findTestObject('Object_Login/android.widget.EditText - Password'), 'M8WMB2P9gOTVnYMOk4llWg==', 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tapAndHold(findTestObject('Object_Login/android.widget.EditText - email user'), 0, 0)
 
-Mobile.setText(findTestObject('null'), '121212', 0)
+Mobile.tapAndHold(findTestObject('Object Repository/Object_Login/android.widget.EditText - pass'), 0, 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - Log in'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Object_Login/android.widget.EditText'), '121212', 0)
+
+Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - Not now'), 0)
 
 Mobile.tap(findTestObject('Object_Dual Currency/android.view.ViewGroup Earn Menu'), 0)
 
