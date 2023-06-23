@@ -51,6 +51,8 @@ Mobile.tap(findTestObject('Object Fixed Deposit/android.widget.TextView - 25'), 
 
 Mobile.tap(findTestObject('Object Fixed Deposit/android.widget.TextView - 1'), 0, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.scrollToText('Subscribe', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Fixed Deposit/android.widget.TextView - Button Subscribe'), 0)
 
 Mobile.tap(findTestObject('Object Fixed Deposit/android.widget.TextView - Button Confirm subscribe'), 0)

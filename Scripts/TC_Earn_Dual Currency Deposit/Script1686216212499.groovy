@@ -41,7 +41,7 @@ Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextVie
 
 Mobile.tap(findTestObject('Object_Dual Currency/android.view.ViewGroup Earn Menu'), 0)
 
-Mobile.tap(findTestObject('Object_Dual Currency/android.widget.TextView - Button Earn now'), 0)
+Mobile.tap(findTestObject('Object_Dual Currency/android.widget.TextView - Earn now'), 0)
 
 Mobile.tap(findTestObject('Object_Dual Currency/android.widget.LinearLayout Earn Dual Currency'), 0)
 
@@ -49,7 +49,9 @@ Mobile.tap(findTestObject('Object_Dual Currency/android.view.ViewGroup 1st produ
 
 Mobile.tap(findTestObject('Object_Dual Currency/android.view.ViewGroup ann yield'), 0)
 
-Mobile.tap(findTestObject('Object_Dual Currency/android.widget.TextView - 25'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.setText(findTestObject('Object_Dual Currency/android.widget.EditText - 2000'), '0.1', 0)
+
+Mobile.scrollToText('I understand that once these funds are deposited,', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object_Dual Currency/android.widget.CheckBox understand'), 0)
 
@@ -57,7 +59,13 @@ Mobile.tap(findTestObject('Object_Dual Currency/android.widget.CheckBox Read'), 
 
 Mobile.tap(findTestObject('Object_Dual Currency/android.widget.TextView - Button Invest'), 0)
 
+Mobile.scrollToText('Confirm invest', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object_Dual Currency/android.widget.TextView - Confirm invest'), 0)
+
+Mobile.tap(findTestObject('Object_Dual Currency/android.view.View transaction success'), 0)
+
+Mobile.tap(findTestObject('Object_Dual Currency/android.widget.TextView - View My Earnings'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

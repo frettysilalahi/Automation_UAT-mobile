@@ -39,9 +39,9 @@ Mobile.setText(findTestObject('Object Repository/Object_Login/android.widget.Edi
 
 Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - Not now'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object_Login/android.widget.FrameLayout home menu'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

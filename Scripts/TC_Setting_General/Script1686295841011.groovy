@@ -41,7 +41,7 @@ Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextVie
 
 Mobile.tap(findTestObject('Object_Menu/android.view.ViewGroup Profile Menu'), 0)
 
-Mobile.tap(findTestObject('Object_Profile/General/android.view.ViewGroup Profile Setting'), 0)
+Mobile.tap(findTestObject('Object_Profile/General/android.view.ViewGroup Setting Menu'), 0)
 
 Mobile.tap(findTestObject('Object_Profile/General/android.view.ViewGroup Setting Theme'), 0)
 
