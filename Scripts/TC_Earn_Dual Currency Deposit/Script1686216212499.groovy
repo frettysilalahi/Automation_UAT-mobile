@@ -39,17 +39,25 @@ Mobile.setText(findTestObject('Object Repository/Object_Login/android.widget.Edi
 
 Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - Not now'), 0)
 
-Mobile.tap(findTestObject('Object_Dual Currency/android.view.ViewGroup Earn Menu'), 0)
+Mobile.tap(findTestObject('Object_Menu/android.widget.FrameLayout Menu Portofolio'), 0)
 
-Mobile.tap(findTestObject('Object_Dual Currency/android.widget.TextView - Earn now'), 0)
+Mobile.tap(findTestObject('Object_Portofolio/android.widget.TextView - Earn more'), 0)
 
-Mobile.tap(findTestObject('Object_Dual Currency/android.widget.LinearLayout Earn Dual Currency'), 0)
+Mobile.tap(findTestObject('Object_Portofolio/Dual currency/android.widget.TextView - Dual Currency'), 0)
 
-Mobile.tap(findTestObject('Object_Dual Currency/android.view.ViewGroup 1st product'), 0)
+Mobile.tap(findTestObject('Object_Portofolio/Dual currency/android.view.ViewGroup 1st dual currency (1)'), 0)
 
-Mobile.tap(findTestObject('Object_Dual Currency/android.view.ViewGroup ann yield'), 0)
+Mobile.tap(findTestObject('Object_Portofolio/Dual currency/android.widget.ImageView dropdown 1'), 0)
 
-Mobile.setText(findTestObject('Object_Dual Currency/android.widget.EditText - 2000'), '0.1', 0)
+Mobile.tap(findTestObject('Object_Portofolio/Dual currency/android.widget.ImageView dropdown 2'), 0)
+
+Mobile.tap(findTestObject('Object_Portofolio/Dual currency/android.widget.ImageView dropdown 3'), 0)
+
+Mobile.tap(findTestObject('Object_Portofolio/Dual currency/android.widget.ImageView dropdown 1'), 0)
+
+Mobile.tap(findTestObject('Object_Portofolio/Dual currency/android.view.ViewGroup 1st dual currency btc'), 0)
+
+Mobile.setText(findTestObject('Object_Portofolio/Dual currency/android.widget.EditText - 0'), '0.05', 0)
 
 Mobile.scrollToText('I understand that once these funds are deposited,', FailureHandling.STOP_ON_FAILURE)
 
