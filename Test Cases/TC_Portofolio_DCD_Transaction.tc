@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Potofolio_Earn_Unstake</name>
+   <name>TC_Portofolio_DCD_Transaction</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5042d5d0-47ce-4e6e-aaed-e59a6e14c7ca</testCaseGuid>
+   <testCaseGuid>333f9955-b298-484a-b2a0-f39b3e19c1da</testCaseGuid>
 </TestCaseEntity>

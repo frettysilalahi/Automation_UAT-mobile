@@ -56,5 +56,7 @@ Mobile.tap(findTestObject('Object Repository/unstake/android.widget.TextView - V
 
 Mobile.tap(findTestObject('Object Repository/unstake/android.widget.TextView - Earn'), 0)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.closeApplication()
 

@@ -39,17 +39,19 @@ Mobile.setText(findTestObject('Object Repository/Object_Login/android.widget.Edi
 
 Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - Not now'), 0)
 
-Mobile.tap(findTestObject('Object_Menu/android.view.ViewGroup Profile Menu'), 0)
-
-Mobile.tap(findTestObject('Object_Transaction History/android.view.ViewGroup Transactions history'), 0)
+Mobile.tap(findTestObject('Object_Menu/android.widget.FrameLayout Menu History'), 0)
 
 Mobile.tap(findTestObject('Object_Transaction History/android.widget.ImageView filter'), 0)
 
 Mobile.tap(findTestObject('Object_Transaction History/Buy/android.widget.CheckBox Buy check'), 0)
 
+Mobile.tap(findTestObject('Object_ History_Filter/android.widget.TextView - Apply filter'), 0)
+
 Mobile.tap(findTestObject('Object_Transaction History/Buy/android.view.ViewGroup buy 1st list'), 0)
 
 Mobile.tap(findTestObject('Object_Transaction History/Buy/android.view.ViewGroup transaction detail'), 0)
+
+Mobile.tap(findTestObject('Object_Portofolio/android.widget.ImageView back'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

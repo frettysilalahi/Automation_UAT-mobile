@@ -39,7 +39,7 @@ Mobile.setText(findTestObject('Object Repository/Object_Login/android.widget.Edi
 
 Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - Not now'), 0)
 
-Mobile.tap(findTestObject('Object_Exchange/android.view.ViewGroup Exchange Menu'), 0)
+Mobile.tap(findTestObject('Object_Home/android.widget.RelativeLayout Swap'), 0)
 
 Mobile.setText(findTestObject('Object_Exchange/android.widget.EditText - 0 send amount idk'), '2000', 0)
 
@@ -58,3 +58,4 @@ Mobile.tap(findTestObject('Object_Exchange/android.widget.TextView - View Portfo
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
+

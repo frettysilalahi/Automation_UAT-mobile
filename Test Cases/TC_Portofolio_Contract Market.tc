@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Potofolio_Earn_Stake</name>
+   <name>TC_Portofolio_Contract Market</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b90e7cfb-87a5-41e8-b638-a04250e78d1d</testCaseGuid>
+   <testCaseGuid>3ef74090-24e7-48f6-b39b-bd14ca7b4309</testCaseGuid>
 </TestCaseEntity>
