@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\11419057_Fretty L M Silalahi\\Tokenomy\\2.9.2-UAT.apk', true)
+Mobile.startApplication('D:\\11419057_Fretty L M Silalahi\\Tokenomy\\2.9.0-UAT.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - SKIP'), 0)
 
