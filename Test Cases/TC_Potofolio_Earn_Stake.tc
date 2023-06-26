@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Earn_Staking_Stake</name>
+   <name>TC_Potofolio_Earn_Stake</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d828ca99-99dc-482c-b49f-9065869b28ed</testCaseGuid>
+   <testCaseGuid>b90e7cfb-87a5-41e8-b638-a04250e78d1d</testCaseGuid>
 </TestCaseEntity>

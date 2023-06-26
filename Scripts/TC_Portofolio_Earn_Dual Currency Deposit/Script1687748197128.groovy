@@ -39,9 +39,9 @@ Mobile.setText(findTestObject('Object Repository/Object_Login/android.widget.Edi
 
 Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - Not now'), 0)
 
-Mobile.tap(findTestObject('Object_Dual Currency/android.view.ViewGroup Earn Menu'), 0)
+Mobile.tap(findTestObject('Object_Menu/android.widget.FrameLayout Menu Portofolio'), 0)
 
-Mobile.tap(findTestObject('Object_Dual Currency/android.widget.TextView - Earn now'), 0)
+Mobile.tap(findTestObject('Object_Portofolio/android.widget.TextView - Earn more'), 0)
 
 Mobile.tap(findTestObject('Object_Dual Currency/android.widget.LinearLayout Earn Dual Currency'), 0)
 

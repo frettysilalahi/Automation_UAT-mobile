@@ -39,27 +39,23 @@ Mobile.setText(findTestObject('Object Repository/Object_Login/android.widget.Edi
 
 Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - Not now'), 0)
 
-Mobile.tap(findTestObject('Object_Dual Currency/android.view.ViewGroup Earn Menu'), 0)
+Mobile.tap(findTestObject('Object_Menu/android.widget.FrameLayout Menu Portofolio'), 0)
 
-Mobile.tap(findTestObject('Object_Dual Currency/android.widget.TextView - Button Earn now'), 0)
+Mobile.tap(findTestObject('Object_Portofolio/android.widget.TextView - Earn more'), 0)
 
-Mobile.tap(findTestObject('Object Fixed Deposit/android.widget.LinearLayout Fixed Deposit'), 0)
+Mobile.tap(findTestObject('Object_Staking/android.widget.TextView - Earn Stake'), 0)
 
-Mobile.tap(findTestObject('Object Fixed Deposit/android.view.ViewGroup 1st product'), 0)
+Mobile.tap(findTestObject('Object_Staking/android.view.ViewGroup 1st stake prod'), 0)
 
 Mobile.tap(findTestObject('Object Fixed Deposit/android.widget.TextView - 25'), 0)
 
-Mobile.tap(findTestObject('Object Fixed Deposit/android.widget.TextView - 1'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object_Staking/android.widget.TextView - Button Stake'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.scrollToText('Subscribe', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Object Fixed Deposit/android.widget.TextView - Button Subscribe'), 0)
-
-Mobile.tap(findTestObject('Object Fixed Deposit/android.widget.TextView - Button Confirm subscribe'), 0)
+Mobile.tap(findTestObject('Object_Staking/android.widget.TextView - Button Confirm stake'), 0)
 
 Mobile.tap(findTestObject('Object Fixed Deposit/android.view.ViewGroup view success'), 0)
 
-Mobile.tap(findTestObject('Object Fixed Deposit/android.widget.ImageView Close'), 0)
+Mobile.tap(findTestObject('Object_Staking/android.widget.TextView - Button View My Earnings'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

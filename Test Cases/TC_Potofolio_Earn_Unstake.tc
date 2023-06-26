@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Earn_Fixed Deposit</name>
+   <name>TC_Potofolio_Earn_Unstake</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6f705dbb-f9f4-434c-9f5c-c6a251b4eb77</testCaseGuid>
+   <testCaseGuid>5042d5d0-47ce-4e6e-aaed-e59a6e14c7ca</testCaseGuid>
 </TestCaseEntity>
