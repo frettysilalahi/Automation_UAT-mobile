@@ -39,15 +39,15 @@ Mobile.setText(findTestObject('Object Repository/Object_Login/android.widget.Edi
 
 Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - Not now'), 0)
 
-Mobile.tap(findTestObject('Object_Menu/android.widget.FrameLayout Menu Profile'), 0)
+Mobile.tap(findTestObject('Object_Login/android.widget.FrameLayout home menu'), 0)
 
-Mobile.tap(findTestObject('Object_Profile/General/android.view.ViewGroup Setting Menu'), 0)
+Mobile.tap(findTestObject('Object_new_home/android.widget.ImageView hide'), 0)
 
-Mobile.tap(findTestObject('Object_Profile/General/android.view.ViewGroup Setting Theme'), 0)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object_Profile/General/android.view.ViewGroup Dark theme'), 0)
+Mobile.tap(findTestObject('Object_new_home/android.widget.ImageView hide'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

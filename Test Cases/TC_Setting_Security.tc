@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>expected
+- See adjusted dark mode
+
+- Expected language</description>
+   <name>TC_Setting_Security</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>770658ed-d024-4c04-b258-ad420f5a21e2</testCaseGuid>
+</TestCaseEntity>

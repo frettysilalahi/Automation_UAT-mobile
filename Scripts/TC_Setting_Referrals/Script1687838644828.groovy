@@ -41,13 +41,11 @@ Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextVie
 
 Mobile.tap(findTestObject('Object_Menu/android.widget.FrameLayout Menu Profile'), 0)
 
-Mobile.tap(findTestObject('Object_Profile/General/android.view.ViewGroup Setting Menu'), 0)
+Mobile.tap(findTestObject('Object_Profile/Refferal/android.view.ViewGroup Refferal'), 0)
 
-Mobile.tap(findTestObject('Object_Profile/General/android.view.ViewGroup Setting Theme'), 0)
+Mobile.tap(findTestObject('Object_Profile/Refferal/android.widget.ImageView refferal link'), 0)
 
-Mobile.tap(findTestObject('Object_Profile/General/android.view.ViewGroup Dark theme'), 0)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

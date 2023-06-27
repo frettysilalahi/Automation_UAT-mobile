@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>expected
+- See adjusted dark mode
+
+- Expected language</description>
+   <name>TC_Setting_Referrals</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>88bb71d8-d0d6-4e0a-945b-2a7e21bacef4</testCaseGuid>
+</TestCaseEntity>

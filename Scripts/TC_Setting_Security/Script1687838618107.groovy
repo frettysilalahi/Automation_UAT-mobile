@@ -41,11 +41,19 @@ Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextVie
 
 Mobile.tap(findTestObject('Object_Menu/android.widget.FrameLayout Menu Profile'), 0)
 
-Mobile.tap(findTestObject('Object_Profile/General/android.view.ViewGroup Setting Menu'), 0)
+Mobile.tap(findTestObject('Object_Profile/Security/android.widget.TextView - Security'), 0)
 
-Mobile.tap(findTestObject('Object_Profile/General/android.view.ViewGroup Setting Theme'), 0)
+Mobile.tap(findTestObject('Object_Profile/Security/android.view.ViewGroup authenticator method'), 0)
 
-Mobile.tap(findTestObject('Object_Profile/General/android.view.ViewGroup Dark theme'), 0)
+Mobile.tap(findTestObject('Object_Profile/Security/android.view.ViewGroup text message'), 0)
+
+Mobile.setText(findTestObject('Object_Profile/Security/android.widget.EditText OTP'), '121212', 0)
+
+Mobile.tap(findTestObject('Object_Profile/Security/android.view.ViewGroup'), 0)
+
+Mobile.tap(findTestObject('Object_Profile/Security/android.widget.ImageView back'), 0)
+
+Mobile.tap(findTestObject('Object_Profile/Security/android.widget.TextView - Security'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
