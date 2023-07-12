@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\11419057_Fretty L M Silalahi\\Tokenomy\\2.10.0-UAT(300641).apk', true)
+Mobile.startApplication('D:\\11419057_Fretty L M Silalahi\\Tokenomy\\2.9.0-UAT.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextView - SKIP'), 0)
 
@@ -41,13 +41,9 @@ Mobile.tap(findTestObject('Object Repository/Object_Login/android.widget.TextVie
 
 Mobile.tap(findTestObject('Object_Login/android.widget.FrameLayout home menu'), 0)
 
-Mobile.tap(findTestObject('Object_new_home/android.widget.ImageView Notification'), 0)
+Mobile.tap(findTestObject('Object_Menu/android.widget.FrameLayout Menu Funding'), 0)
 
-Mobile.tap(findTestObject('Object_new_home/Notifications/android.view.ViewGroup 1st item notification'), 0)
-
-Mobile.tap(findTestObject('Object_new_home/Notifications/android.widget.TextView - Mark all as read'), 0)
-
-Mobile.tap(findTestObject('Object_new_home/Notifications/android.widget.ImageView back'), 0)
+Mobile.tap(findTestObject('Object_new_home/funding/android.widget.ImageView cross funding'), 0)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
